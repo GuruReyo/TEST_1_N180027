@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+            <link rel="stylesheet" href="king.css">
+        </title>
+    </head>
+    <body><center><div class="rn">
+        <h1 class="rm">F1H2O<sub><small>RGUKT</small></sub></h1></div></center>
+        <div class="form">
+            <form id="formdiv" method="post" action="guru.php" onsubmit="return guru()"  >
+                <input id="user" type="text" placeholder="User Name">
+                <input type="text" id="gmail" placeholder="Email-id">
+                <input type="tel" id="phn" placeholder="Enter Phone Number">
+                <!-- <input type="text" placeholder="Country"> -->
+                <label class="ram" >Select your Country:</label>
+                <select id="country"  name="country" >
+                    <option >select an option</option>
+                    <option >INDIA</option>
+                    <option value="America">America</option>
+                    <option value="Germany">Germany</option>
+                    <option value="England">England</option>
+                    <option value="RGUKT-RREPRESENTATIVE">RGUKT</option>
+                </select>
+                <div class="red" id="beer">BEER REQUIRES:<input type="checkbox"><label>YES</label><input type="checkbox"><label>No</label></div>
+              <input id="pt" type="text" placeholder="Payment-type">
+                
+                <!-- <select class="j">
+                <option value="India">India</option>
+                <option value="America">America</option>
+                <option value="Germany">Germany</option>
+                <option value="England">England</option>
+                <option value="RGUKT-RREPRESENTATIVE">RGUKT</option>
+                </select> -->
+                <center><h4>Accomodation Type:</h4></center>
+                <label>NUZVID</label><input type="radio" name="one" id="n" >
+                <label>SKLM</label><input type="radio" name="one" id="s" >
+                <label>KADAPA</label><input type="radio" name="one" id="k" >
+                <label>ONGOLE</label><input type="radio" name="one" id="o" >
+                <input type="number" id="days" placeholder="No.of Days Staying">
+                COST FOR STAYING:
+                <pre >
+
+
+                </pre><label id="cos"></label>
+                <button>Create</button>
+            </form>
+            <script src="guru.js"></script>
+    </body>
+</html>
